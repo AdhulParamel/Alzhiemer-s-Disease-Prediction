@@ -9,8 +9,9 @@ warnings.filterwarnings('ignore')
 st.sidebar.title("Alzheimer's Disease Classification")
 st.sidebar.markdown("This application classifies Alzheimer's disease stages using machine learning models.")
 
-st.sidebar.page_link("app.py", label="Home", icon="🧠")
-st.sidebar.page_link("Pages/about.py", label="About", icon="❄️")
+st.sidebar.title("Navigation")
+st.sidebar.write("🏠 Home")
+st.sidebar.write("❄️ About")
 
 st.write("# Alzheimer's Disease Classification Application")
 
